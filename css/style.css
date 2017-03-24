@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900');
+body{
+	font-family: 'Roboto', sans-serif;
+	background: #DCD9E0;
+	color: #303030;
+	font-size: 18px;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+
+header nav{
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 20rem;
+}
+
+ul li{
+	display: inline-block;
+	list-style-type: none;
+	text-align: right;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+}
+
+header nav a{
+	display: inline-block;
+	padding: 1rem 2rem 1rem 1rem;
+	text-decoration: none;
+	color: #303030;
+	text-align: right;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+.ba-container{
+	max-width: 1500px;
+	width: 100%;
+	margin: auto;
+}
+
+.logo{
+	display: inline-block;
+	font-size: 48px;
+	color: #303030;
+	font-weight: 900;
+	line-height: 27px;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.section-1{
+	display: inline-block;
+	width: 35rem;
+	height: 22.2rem;
+	text-align: right;
+	word-wrap: break-word;
+	margin-top: 5.8rem;
+
+}
+.bnw{
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #303030;
+	font-size: 150px;
+	font-weight: 900;
+	line-height: 150px;
+	width: 36rem;
+}
+
+/*div a p{
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 36px;
+	text-align: left;
+}*/
+
+.view{
+	display: inline-block;
+	text-decoration: none;
+	color: #e10011;
+	font-size: 24px; 
+	font-weight: 700;
+	line-height: 36px;
+	margin-left: 75%;
+	margin-bottom: 4.6rem;
+}
+.headphones{
+	margin: 0 0 5.5rem 5rem;
+	width: 20.27rem;
+	height: 27.27rem;
+}
+
+.black-and-white{
+	margin-bottom: 5.5rem;
+}
+
+.featured-products{
+	display: inline-block;
+	background: #fff;
+	width: 66.5rem;
+	border-radius: 5px;
+}
+
+.section-2{
+	width: 30.6rem;
+	margin: 6.2rem auto 0 auto;
+	text-align: center;
+}
+
+.fp{
+	font-family: 'Raleway', sans-serif;
+	font-size: 48px;
+	font-weight: 900;
+	text-decoration: none;
+	color: #303030;
+	text-align: center;
+}
+
+.headphones{
+	background: #dcd9e0;
+	width: 20.2rem;
+	height: 27.2rem;
+}
+
+.image-block{
+	display: inline-block;
+	margin: 4rem 3.8rem;
+}
+
+.beats{
+	width: 38.4rem;
+	height: 21.5rem;
+	margin-right: 2rem;
+}
+
+.headphones-red{
+	width: 18.2rem;
+	height: 21.5rem;
+}
+
+.red-image{
+	display: inline-block;
+	width: 18.2rem;
+	height: 21.5rem;
+}
+
+.img-wrap {
+	position:relative;
+	width: 18.2rem;
+	height: 21.5rem;
+}
+
+.img-wrap p {
+	display:none;
+	opacity: 0;
+	color:  #fff;
+	font-size: 30px;
+	font-weight: 900;
+	line-height: 40px;
+	text-align: left;
+	margin: 0;
+	padding-top: 75%;
+}
+
+
+.img-wrap:hover p {
+	opacity: 1;
+	display:block;
+    position:absolute;
+    top: 0;
+	left:0;
+	right: 0;
+	bottom: 0;
+    z-index:5;
+    background: #e10011;
+    border-radius: 5px;
+    transition: opacity 0.5s ease;
+}
+
+.img-wrap:hover p span {
+ text-decoration: underline;
+}
+
+.boots{
+	display: inline-block;
+	width: 18.2rem;
+	height: 21.5rem;
+}
+
+.chair{
+	display: inline-block;
+	margin-right: 0;
+	width: 18.2rem;
+	height: 21.5rem;
+}
+
+.ba-footer{
+	font-family: 'Raleway', sans-serif;
+	width: 50rem;
+	margin: auto;
+	text-align: center;
+}
+
+
+.footer-head{
+	width: 32.4rem;	
+	text-align: center;
+	margin: 5.5rem auto 2.3rem auto;}
+
+
+.pn{
+	text-decoration: none;
+	color: #303030;
+	font-size: 48px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.email-form{
+	position: relative;
+
+}
+
+.email-form input{
+	padding-left: 2rem;
+}
+
+.email{
+	box-sizing: border-box;
+	border-radius: 30px 0 0 30px;
+	border: none;
+	width: 70%;
+	height: 3.9rem;
+	color:  #979797;
+	font-size: 18px;
+	font-style: italic;
+	line-height: 24px;
+
+}
+
+.button{
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	background: #E00008;
+	color: #fff;
+	font-weight: 900;
+	width: 30%;
+	height: 3.9rem;
+	border-radius: 0 30px 30px 0;
+	border: none;
+	position: absolute;
+	left: 60%;
+}
+
+
+.social-icons{
+	margin: 5.8rem auto 3.2rem auto;
+	/*margin-bottom: 3.2rem;*/
+
+}
+
+.social-icons a {
+	margin: 0.5rem;
+}
+
+footer p{
+	color: #979797;
+}
+
+footer p span{
+color: #303030;
+}
