@@ -175,13 +175,12 @@ textarea {
 
 .image-block{
 	display: inline-block;
-	margin: 4rem 3.8rem;
+	margin: 4rem 0 4rem 4rem;
 }
 
 .beats{
 	width: 38.4rem;
 	height: 21.5rem;
-	margin-right: 2rem;
 }
 
 .headphones-red{
@@ -190,31 +189,37 @@ textarea {
 }
 
 .red-image{
-	display: inline-block;
 	width: 18.2rem;
 	height: 21.5rem;
 }
 
-.img-wrap {
+.img-wrap, .img-wrap-beats {
 	position:relative;
-	width: 18.2rem;
-	height: 21.5rem;
+	float: left;
+	margin-right: 2rem;
 }
 
-.img-wrap p {
+.img-wrap-beats p, .img-wrap p {
 	display:none;
 	opacity: 0;
 	color:  #fff;
 	font-size: 30px;
 	font-weight: 900;
-	line-height: 40px;
 	text-align: left;
 	margin: 0;
-	padding-top: 75%;
 }
 
+ .img-wrap p {
+ 	padding-top: 75%;
+ }
 
-.img-wrap:hover p {
+ .img-wrap-beats p {
+ 	padding-top: 45%;
+ }
+
+
+
+.img-wrap-beats:hover p, .img-wrap:hover p {
 	opacity: 1;
 	display:block;
     position:absolute;
@@ -228,8 +233,9 @@ textarea {
     transition: opacity 0.5s ease;
 }
 
-.img-wrap:hover p span {
- text-decoration: underline;
+.img-wrap-beats:hover p span,.img-wrap:hover p span {
+	text-decoration: underline;
+
 }
 
 .boots{
